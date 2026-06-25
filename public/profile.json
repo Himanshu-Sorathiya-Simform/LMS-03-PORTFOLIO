@@ -1,0 +1,78 @@
+{
+	"profile": {
+		"name": "Himanshu Sorathiya",
+		"role": "React Developer",
+		"title": "React Developer",
+		"heroTagline": "Specialized in crafting web architectures using React, TypeScript, and modern ecosystem tools.",
+		"aboutParagraphs": [
+			"I am a Frontend Engineer currently completing a 5-month internship, where I focus on building responsive web systems with React, TypeScript, and Vite. My approach centers on clean architecture, scalable state management, and solid data validation using tools like Redux, React Router, React Hook Form, Zod, and Tailwind CSS.",
+			"I prioritize writing predictable, highly maintainable code that bridges the gap between precise UI designs and performance-optimized browser execution."
+		]
+	},
+	"navigation": [
+		{ "label": "Home", "href": "#" },
+		{ "label": "About", "href": "#about" },
+		{ "label": "Projects", "href": "#projects" },
+		{ "label": "Contact", "href": "#contact" }
+	],
+	"skills": [
+		{ "name": "React", "category": "FRONTEND" },
+		{ "name": "TypeScript", "category": "FRONTEND" },
+		{ "name": "JavaScript", "category": "FRONTEND" },
+		{ "name": "Tailwind CSS", "category": "FRONTEND" },
+		{ "name": "HTML & CSS", "category": "FRONTEND" },
+		{ "name": "Redux Toolkit", "category": "STATE MANAGEMENT" },
+		{ "name": "React Router", "category": "ROUTING" },
+		{ "name": "React Hook Form", "category": "LIBRARIES" },
+		{ "name": "Zod", "category": "VALIDATION" },
+		{ "name": "Vite", "category": "TOOLS & METHODS" },
+		{ "name": "Git & GitHub", "category": "TOOLS & METHODS" },
+		{ "name": "Axios", "category": "NETWORKING" }
+	],
+	"projects": [
+		{
+			"title": "react-kit",
+			"description": "An opinionated npm package delivering robust custom hooks and utility components for sorting, pagination, debouncing, and throttling. Features a centralized modal state manager built with React Context.",
+			"tags": ["React", "TypeScript", "NPM Package", "State Management"],
+			"liveUrl": "https://www.npmjs.com/package/@himanshu-sorathiya/react-kit",
+			"sourceUrl": "https://github.com/Himanshu-Sorathiya-Simform/react-kit"
+		},
+		{
+			"title": "React Router Clone",
+			"description": "A lightweight implementation of client-side routing supporting layout routes, nested route structures, programmatic navigation via hooks, and declarative routing components like Link and Navigate.",
+			"tags": ["React", "TypeScript", "NPM Package", "Routing"],
+			"liveUrl": "https://www.npmjs.com/package/@himanshu-sorathiya/router",
+			"sourceUrl": "https://github.com/Himanshu-Sorathiya-Simform/react-router"
+		},
+		{
+			"title": "OmniVal",
+			"description": "A functional runtime schema validation library mimicking Zod. Supports composable, chaining APIs for structural type validation and strict static type inference.",
+			"tags": ["TypeScript", "NPM Package", "Validation"],
+			"liveUrl": "https://www.npmjs.com/package/@himanshu-sorathiya/omnival",
+			"sourceUrl": "https://github.com/Himanshu-Sorathiya-Simform/OmniVal"
+		},
+		{
+			"title": "E-Commerce Frontend",
+			"description": "A responsive storefront integrated with Axios for data fetching. Built with React Hook Form and Zod for absolute form safety, protected dashboard routing, and synchronized URL search filters.",
+			"tags": ["React", "TypeScript", "Axios", "React Hook Form", "Zod"],
+			"liveUrl": "https://6607912f.lms-06-e-commerce-app.pages.dev",
+			"sourceUrl": "https://github.com/Himanshu-Sorathiya-Simform/LMS-06-E-Commerce-App"
+		}
+	],
+	"contactInfo": [
+		{
+			"label": "Direct Email",
+			"content": "himanshu.sorathiya@simformsolutions.com",
+			"isPrimary": true
+		},
+		{
+			"label": "Location",
+			"content": "Surat, Gujarat, India",
+			"isPrimary": false
+		}
+	],
+	"socialLinks": [
+		{ "label": "GitHub", "href": "#" },
+		{ "label": "LinkedIn", "href": "#" }
+	]
+}
