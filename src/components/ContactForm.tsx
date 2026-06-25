@@ -1,25 +1,6 @@
-function ContactForm() {
-	const formFields = [
-		{
-			label: 'Name',
-			type: 'text',
-			placeholder: 'Krish Patel',
-			isTextArea: false,
-		},
-		{
-			label: 'Email',
-			type: 'email',
-			placeholder: 'krish@example.com',
-			isTextArea: false,
-		},
-		{
-			label: 'Message',
-			placeholder: 'Write your message here...',
-			isTextArea: true,
-			rows: 5,
-		},
-	];
+import { formFields } from '../constants/constants.ts';
 
+function ContactForm() {
 	return (
 		<div className='rounded-xl border border-slate-900 bg-[#0c1329] p-8 md:w-2/3'>
 			<form
