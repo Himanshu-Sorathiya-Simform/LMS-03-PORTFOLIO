@@ -1,4 +1,5 @@
 import AboutMe from './components/AboutMe.tsx';
+import Contact from './components/Contact.tsx';
 import Header from './components/Header.tsx';
 import Hero from './components/Hero.tsx';
 import Projects from './components/Projects.tsx';
@@ -16,6 +17,8 @@ function App() {
 			<TechnicalFramework />
 
 			<Projects />
+
+			<Contact />
 		</div>
 	);
 }
