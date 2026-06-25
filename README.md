@@ -1,2 +1,3 @@
 # LMS-03-PORTFOLIO
-Portfolio website made using React and TailwindCSS. Utilzing profile.json file to dynamically load profile.
+
+Portfolio website made using React and TailwindCSS. Utilizing profile.json file to dynamically load profile.
