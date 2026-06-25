@@ -11,6 +11,7 @@ function TechnicalFramework() {
 		{ name: 'Zod', category: 'VALIDATION' },
 		{ name: 'Vite', category: 'TOOLS & METHODS' },
 		{ name: 'Git & GitHub', category: 'TOOLS & METHODS' },
+		{ name: 'Axios', category: 'NETWORKING' },
 	];
 
 	return (

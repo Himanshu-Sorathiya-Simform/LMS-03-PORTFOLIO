@@ -1,6 +1,7 @@
 import AboutMe from './components/AboutMe.tsx';
 import Header from './components/Header.tsx';
 import Hero from './components/Hero.tsx';
+import Projects from './components/Projects.tsx';
 import TechnicalFramework from './components/TechnicalFramework.tsx';
 
 function App() {
@@ -13,6 +14,8 @@ function App() {
 			<AboutMe />
 
 			<TechnicalFramework />
+
+			<Projects />
 		</div>
 	);
 }
